@@ -1,0 +1,23 @@
+body, div, h2, a, footer{
+    font-family: "Times New Roman";
+}
+
+img {
+    max-width: 80%;
+    border: 20px solid black;
+}
+body {
+    background-color: red;
+}
+
+div{
+    justify-content: center; 
+    text-align: center;
+}
+footer {
+    text-align: left;
+}
+
+a{
+    border: 30px black;
+}
