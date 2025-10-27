@@ -1,23 +1,47 @@
-body, div, h2, a, footer{
-    font-family: "Times New Roman";
-}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: red;
+    }
 
-img {
-    max-width: 80%;
-    border: 20px solid black;
-}
-body {
-    background-color: red;
-}
+    h2 {
+        color: blue;
+        text-align: center;
+    }
 
-div{
-    justify-content: center; 
-    text-align: center;
-}
-footer {
-    text-align: left;
-}
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block; 
+        margin: 0 auto 20px auto;
+    }
 
-a{
-    border: 30px black;
-}
+    #project-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .pathfinder-Campaign,
+    .weather-app,
+    .css { 
+        background-color: green;
+        border: 1px solid back;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        text-align: center;
+        min-width: 200px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #eee;
+        color: #555;
+        border-top: 1px solid #ccc;
+    }
